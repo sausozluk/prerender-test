@@ -1,0 +1,17 @@
+{
+  "name": "prerender-test",
+  "private": true,
+  "dependencies": {
+    "async": "^2.5.0",
+    "lodash": "^4.17.4",
+    "progress": "^2.0.0",
+    "request": "^2.81.0"
+  },
+  "config": {
+    "baseUrl": "http://sausozluk.net/entry/1?q=",
+    "repeat": 10,
+    "responseTimeWarnLimit": 1500,
+    "match": "ilk entry",
+    "agent": "Googlebot/2.1 (+http://www.google.com/bot.html)"
+  }
+}
